@@ -84,6 +84,7 @@ static int load_symbols() {
     return -1;
   }
 
+  LOGV("ArtHelper", "walk_stack handle is %p", walk_stack);
 
 
   suspend_thread_by_thread_id =
